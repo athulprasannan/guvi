@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
  long long int a;
  scanf("%lld",&a);
@@ -9,5 +9,4 @@ int main()
  printf("number is positive");
  else if(a<0)
  printf("number is negative");
- return 0;
 } 
